@@ -1,0 +1,14 @@
+
+
+GROUP build
+GENERATE-LOAD-SCRIPTS: ON
+RESTRICTION: >= net45
+NUGET
+  remote: https://www.nuget.org/api/v2
+    FAKE (4.63.2)
+    FSharp.Core (4.0.0.1)
+    Hopac (0.3.14)
+      FSharp.Core (>= 3.1.2.5)
+    Http.fs (4.0.2)
+      FSharp.Core (>= 3.1.2.5)
+      Hopac (>= 0.3.13)
